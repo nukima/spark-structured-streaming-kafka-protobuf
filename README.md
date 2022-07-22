@@ -35,3 +35,11 @@ CREATE TABLE IF NOT EXISTS manhnk9.data_tracking_2001_01_01 (`version` STRING, `
 SELECT * FROM manhnk9.data_tracking_2001_01_01;
 ```
 ![alt text](https://i.imgur.com/5gyzGkx.png)
+### Gen Java code từ file .protto
+```
+mvn complie
+```
+### Build file jar
+```
+mvn package
+```
