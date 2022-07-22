@@ -12,7 +12,8 @@ Password:1
 ```
 spark-submit --deploy-mode cluster --packages org.apache.spark:spark-sql-kafka-0-10_2.11:2.4.0,com.google.protobuf:protobuf-java:3.12.2 --class Streaming.StreamingJob ~/manhnk9/structured-streaming/target/structured-streaming-1.0-SNAPSHOT.jar
 ```
-* Dữ liệu được lưu xuống HDFS trong folder "/user/manhnk9/data_tracking/year=?/day=?/hour=?" với year, day, hour parsing từ field timestamp
+* Dữ liệu được lưu xuống HDFS trong folder "/user/manhnk9/data_tracking/year=?/day=?/hour=?" với year, day, hour parsing từ field timestamp  
+http://172.17.80.27:9870/explorer.html#/user/manhnk9/data_tracking
 ![alt text](https://i.imgur.com/1AY7TzL.png)
 * Kill job
 ```
